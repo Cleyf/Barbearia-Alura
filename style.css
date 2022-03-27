@@ -94,8 +94,10 @@ footer{
 }
 
 main {
- 
+	width: 940px;
+	margin: 0 auto;
 }
+
 form {
   margin: 40px 0;
 }
@@ -127,6 +129,7 @@ form label, form legend{
   border: none;
   border-radius: 5px;
   transition: 1s all;
+  cursor: pointer;
 }
 
 .enviar:hover{
@@ -249,15 +252,18 @@ td, th {
     .caixa, .principal, .conteudo-beneficio, .mapa-conteudo, .video{
       width: auto;
     }
+    
 
-    h1 {
+    h1{
       text-align: center;
     }
 
     nav{
       position: static;
     }
-    .lista-beneficio, .img-beneficios{
+    .lista-beneficio, .img-beneficios, .input-padrao{
       width: 100%;
     }
+
+    
  }
